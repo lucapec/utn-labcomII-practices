@@ -3,13 +3,13 @@
     }
     body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #aaaaaa;
+    color: #000000;
     }
     div.container {
     overflow: auto;
     }
     header {
-    background-color: #e5e5e5;
+    background-color: #1e6421;
     padding: 15px;
     text-align: center;
     }
@@ -39,7 +39,7 @@
     padding: 0 20px;
     }
     .right {
-    background-color: #e5e5e5;
+    background-color: #f1efef;
     float: left;
     width: 20%;
     padding: 15px;
@@ -47,7 +47,7 @@
     text-align: center;
     }
     footer {
-    background-color: #e5e5e5;
+    background-color: #1e6421;
     text-align: center;
     padding: 10px;
     margin-top: 7px;

@@ -23,7 +23,6 @@
             <ul>
                 <li><a href="index.html" target="blank">Inicio</a></li>
                 <li><a href="multimedia.html" target="blank">¿Como curar tú mate?</a></li>
-                <li><a href="products.html" target="blank">Productos</a></li>
                 <li><a href="map.html" target="blank">¿Donde nos encontras?</a></li>
                 <li><a href="contact.html" target="blank">Contacto web</a></li>
             </ul>
@@ -31,17 +30,44 @@
     <!-- Contenedor principal -->
     <main>
         <section>
-            <h2>Lorum Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-            diam nonummy nibh euismod tincidunt ut
-            laoreet dolore magna aliquam erat volutpat.</p>
+            <h2>Ponete en contacto con nosotros</h2>
+            <form class="" action="login2.html" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="user">Nombre:</label></td>
+                            <td><input type="text" name="CampoDeTexto" id="CampoDeTexto" placeholder="Juan Peréz" size="50" required><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mail">Email:</label></td>
+                            <td><input type="mail" name="mail" placeholder="juan.perez@gmail.com" size="50" required><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="age">Introduzca su edad:</label></td>
+                            <td><input type="number" name="age" min="18" max="100" required><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Color">Color favorito:</label></td>
+                            <td><input type="color" name="Color" id=""><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="comentarios"></label></td>
+                            <td> <textarea name="comenterios" rows="10" cols="50"></textarea><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Envio">Enviar:</label></td>
+                            <td><input type="submit" value="Enviar"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
         </section>
     </main>
-    <!-- Contenedor secundario / derecho -->
+    <!-- Contenedor secundario / derecho 
         <div class="right">
             <h2>Info</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </div>
+        </div>-->
         </div>
     <footer>
         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
