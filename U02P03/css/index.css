@@ -1,15 +1,19 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> );
 * {
     box-sizing: border-box;
     }
     body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "bebas" ;
     color: #000000;
+    text-shadow: white;
     }
     div.container {
     overflow: auto;
     }
     header {
-    background-color: #1e6421;
+    
     padding: 15px;
     text-align: center;
     }
@@ -25,7 +29,7 @@
     list-style: none;
     }
     nav li a {
-    background-color: #e5e5e5;
+    background-color: #0d7226;
     padding: 8px;
     margin-top: 7px;
     display: block;
@@ -39,7 +43,7 @@
     padding: 0 20px;
     }
     .right {
-    background-color: #f1efef;
+    background-color: #0d7226;
     float: left;
     width: 20%;
     padding: 15px;
@@ -47,7 +51,6 @@
     text-align: center;
     }
     footer {
-    background-color: #1e6421;
     text-align: center;
     padding: 10px;
     margin-top: 7px;
