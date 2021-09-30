@@ -1,11 +1,9 @@
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> );
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     box-sizing: border-box;
     }
     body {
-    font-family: "bebas" ;
+    font-family: 'Bebas Neue', cursive;
     color: #000000;
     text-shadow: white;
     }
