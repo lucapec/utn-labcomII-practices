@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
+html {
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+        font-family: 'Noto Sans Mono', monospace;
+        font-weight: bolder;
+    }
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .logo {
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    padding-left: 10px;
+    
+    }
+    .fas{
+        color: red;
+        flex-grow: 0;
+        
+    }
+    .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 1000px;
+    gap: 10px;
+    flex-grow: 6;
+  
+        
+    }
+    .nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    justify-content: end;
+    }
+    .nav-item:hover{
+        background-color: rgb(255, 0, 0);
+    }
+    .nav-item:hover a{
+        color: black;
+    }
+    .nav-item-login{
+        background-color: coral;
+    }
+    .nav-item-login:hover{
+        background-color: white;
+    }
