@@ -1,0 +1,79 @@
+
+html{
+    background-color: rgb(245, 245, 245);
+}
+p, h1, h2{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+h2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.li-item{
+    font-family: monospace;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.li-item:hover{
+    color: rgba(0, 0, 0, 0.1)
+}
+a{
+    font-weight: bolder;
+}   
+a:link{
+    color: orange;
+    text-decoration: underline;
+}
+a:visited{
+    color: orange;
+    text-decoration: underline;
+
+}
+.list_{
+    margin-left: 100px;
+    padding: 20px; 
+    border: blue solid 2px;
+    width: 40%;
+    list-style: none;
+}
+.li-green{
+    color: green;
+}
+#green{
+    color: green;
+}
+#last_{
+    color: blue;
+}
+.
+/*itulo h1 con tamaño 24px, color #242424 y grosor 900.
+3. Titulo h2 con tamaño 20px, color #606060 y grosor 800.
+4. Los párrafos tamaño 14px.
+5. Los elementos de la lista deben tener fuente de familia monospace y tamaño 18px.
+6. Todos los links deben estar en negrita.
+7. Los links dentro de la lista deben ser color naranja y estar subrayados.
+8. Los párrafos deben tener un margen superior e inferior de 30px.
+9. La lista entera debe tener un margen a la izquierda de 100px y un padding de 20px.
+Además, agregarle un borde sólido de 2 pixeles, color azul.
+10. Todos elementos dentro del elemento de lista de las provincias de Nequen y Rio
+Negro deben tener color verde (texto y link).
+11. La lista entera debe tener un ancho máximo de 40%.
+12. Aplicar fondo a todo el documento html, usando color expresado en RGB con valores
+245 en todos sus parámetros.
+13. Eliminar las viñetas de la lista.
+14. Agregar 10 pixeles de espaciado interno a cada ítem de la lista.
+15. Agregar un fondo a cada ítem de la lista cuando se le pasa el cursor de mouse por
+encima. El color del fondo debe ser en RGBA, aplicando valor 0 a los parámetros de
+color y 0.1 al parámetro de opacidad*/
