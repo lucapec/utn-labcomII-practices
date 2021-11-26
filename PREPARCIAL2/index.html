@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Cambion't</title>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <main class="form-conteiner">
+        <form action="">
+            <div></div>
+            <h3>Ingrese los pesos</h3>
+            <div>
+                <input type="number" id="pesos" required></input>
+            </div>
+            <div>
+                <label for="selection">
+                    <h3>Elija la moneda:</h3>
+                </label>
+                <select name="selection" id="selection" required>
+                    <option value="0">Seleccione una Divisa</option>
+                    <option value="105.75">Dolar</option>
+                    <option value="120.50">Euro</option>
+                </select>
+            </div>
+            <br>
+            <button type="button" onclick="calculo()">Calcular cambio</button>
+            <br>
+            <label id="retorno"></label>
+            <br>
+            <div>
+                <label for="newMoneda">Ingrese nombre moneda</label>
+                <input type="text" id="newMoneda" onchange="nuevoNombre()">
+            </div>
+            <br>    
+            <div>
+                <label for="nuevosPesos">Ingrese su valorazión en pesos</label>
+                <input type="number" id="nuevosPesos" onchange="nuevoValor()">
+            </div>
+            <br>
+            <button type="button" onclick="agregateEsaMoneda()">Guardar moneda</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
